@@ -1,0 +1,58 @@
+h1, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+#menu-section {
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+.menu li {
+  padding-top: 5px;
+}
+
+.menu a {
+  color: #333333;
+}
+
+#opening {
+  background-color: #fff;
+  padding: 45px;
+}
+
+.clock i {
+  font-size: 60px;
+  margin-top: 2px;
+}
+
+.opening input, i {
+  margin-top: 20px;
+}
+
+#hero-section {
+  background-color: #EEEEEE;
+}
+
+.hero a {
+  color: #333333;
+  margin-left: 20px;
+}
+
+.hero a:hover {
+  background-color: #E48080;
+  text-decoration: none;
+  color: #fff;
+  padding: 23px;
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.shopping {
+  background-color: #514849;
+}
+
+.shopping h4, p {
+  color: #fff;
+}

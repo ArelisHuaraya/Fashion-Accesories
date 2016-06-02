@@ -1,0 +1,63 @@
+// *{outline: 1px solid rgba(255,0,0,0.3);}
+$color_negro:#333333;
+$color_plomo:#EEEEEE;
+$color_amarillo:#FED136;
+$color_blanco:#fff;
+$color-texto:#7E7877;
+$color_negro1:#514849;
+$color_plomoletra: #898989;
+$color_hover: #E48080;
+$fuente:"Roboto", sans-serif;
+
+h1, h5, h6, {
+	font-family: $fuente;
+}
+#menu-section{
+	background-color: $color_plomo;
+	padding: 10px;
+
+}
+.menu li{
+	padding-top: 5px;
+}
+.menu a{
+	color: $color_negro;
+
+}
+#opening{
+	background-color: $color_blanco;
+	padding: 45px;
+}
+.clock i{
+	font-size: 60px;
+	margin-top: 2px;
+}
+.opening input, i{
+	margin-top: 20px;
+}
+
+#hero-section{
+	background-color: $color_plomo;
+}
+.hero a{
+	color: $color_negro;
+	margin-left: 20px;
+}
+.hero a:hover{
+	background-color: $color_hover;
+	text-decoration: none;
+	color: $color_blanco;
+	padding: 23px;
+
+}
+.list{
+	margin-top: 20px;
+}
+
+.shopping{
+	background-color: $color_negro1;
+
+}
+.shopping h4, p{
+	color: $color_blanco;
+}
