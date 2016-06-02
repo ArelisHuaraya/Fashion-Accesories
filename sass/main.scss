@@ -58,6 +58,36 @@ h1, h5, h6, {
 	background-color: $color_negro1;
 
 }
-.shopping h4, p{
-	color: $color_blanco;
+// .shopping h4, p{
+// 	color: $color_blanco;
+// }
+#carrousel{
+
+}
+.primero{
+	background-color: #fff;
+	width: 250px;
+	position: absolute;
+    right: 100px;
+}
+.segundo{
+	width: 250px;
+	background-color: #fff;
+	position: absolute;
+    right: 100px;
+    z-index: 1;
+    opacity: 0.8;
+}
+#arrival{
+	padding: 40px;
+}
+.products a{
+	color: $color_plomoletra;
+}
+.products a:hover{
+	text-decoration: none;
+	color: $color_negro;
+}
+.clients{
+	background: url("../images/client-bg.jpg")
 }
