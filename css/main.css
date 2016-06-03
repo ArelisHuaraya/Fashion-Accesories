@@ -16,7 +16,7 @@ h1, h5, h6 {
 }
 
 #opening {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: 45px;
 }
 
@@ -35,14 +35,16 @@ h1, h5, h6 {
 
 .hero a {
   color: #333333;
+  font-size: 20px;
+  font-weight: bold;
   margin-left: 20px;
 }
 
 .hero a:hover {
   background-color: #E48080;
   text-decoration: none;
-  color: #fff;
-  padding: 23px;
+  color: #FFFFFF;
+  padding: 24px;
 }
 
 .list {
@@ -51,6 +53,9 @@ h1, h5, h6 {
 
 .shopping {
   background-color: #514849;
+  width: 30px;
+  color: #FFFFFF;
+  font-size: 20px;
 }
 
 .primero {
@@ -58,6 +63,10 @@ h1, h5, h6 {
   width: 250px;
   position: absolute;
   right: 100px;
+  margin-top: 15px;
+  margin-right: -120px;
+  border: 1px solid #898989;
+  padding: 1px;
 }
 
 .segundo {
@@ -73,8 +82,15 @@ h1, h5, h6 {
   padding: 40px;
 }
 
+.products {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 .products a {
   color: #898989;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .products a:hover {
@@ -82,6 +98,183 @@ h1, h5, h6 {
   color: #333333;
 }
 
+.products img {
+  margin: 10px;
+  border: 1px solid #EEEEEE;
+}
+
+.products .thumbnail {
+  width: 250px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.price {
+  color: #E48080;
+}
+
+.novedad {
+  top: 50px;
+  background-color: #E48080;
+  border: 1px solid #E48080;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-left: 0px;
+  width: 45px;
+  z-index: 1;
+  position: absolute;
+}
+
+.sale {
+  top: 14px;
+  background-color: #514849;
+  border: 1px solid #514849;
+  color: #FFFFFF;
+  padding: 5px;
+  margin-left: 0px;
+  width: 45px;
+  z-index: 1;
+  position: absolute;
+}
+
 .clients {
   background: url("../images/client-bg.jpg");
+  background-size: contain;
+  height: 180px;
+  margin-bottom: 40px;
+}
+
+.clients img {
+  margin-top: 50px;
+}
+
+.clothing a {
+  color: #898989;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.clothing img {
+  border: 3px solid #EEEEEE;
+}
+
+.clothing button {
+  background-color: #333333;
+  color: #FFFFFF;
+  margin-top: 12px;
+  padding-top: 5px;
+}
+
+.blog {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.blog a {
+  color: #898989;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.blog a:hover {
+  text-decoration: none;
+  color: #333333;
+}
+
+.blog h5 {
+  font-weight: bold;
+}
+
+.read {
+  color: #E48080;
+}
+
+.publicity .thumbnail {
+  width: 350px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+
+.publicity i {
+  font-size: 35px;
+}
+
+.contact {
+  background-color: #EEEEEE;
+  padding: 20px;
+}
+
+.contact a {
+  color: #333333;
+}
+
+.contact li {
+  margin-bottom: 15px;
+}
+
+.contact h4 {
+  font-weight: bold;
+}
+
+.redes i {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.about i {
+  border-radius: 100px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.info {
+  background: url("../images/blog3.jpg");
+  background-size: contain;
+  padding: 300px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.info h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: -40px;
+}
+
+.info h1:hover {
+  background-color: #E48080;
+  padding: 10px;
+}
+
+.arriba {
+  margin-top: -40px;
+  line-height: 30px;
+}
+
+.map {
+  background-color: #FFFFFF;
+  margin-top: -100px;
+  padding-top: 80px;
+}
+
+.cuadro {
+  padding-top: 10px;
+}
+
+.cuadro input {
+  background-color: #EEEEEE;
+  margin-bottom: 15px;
+}
+
+.cuadro textarea {
+  background-color: #EEEEEE;
 }

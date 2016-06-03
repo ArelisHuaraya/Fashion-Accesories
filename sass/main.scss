@@ -2,10 +2,10 @@
 $color_negro:#333333;
 $color_plomo:#EEEEEE;
 $color_amarillo:#FED136;
-$color_blanco:#fff;
+$color_blanco:#FFFFFF;
 $color-texto:#7E7877;
 $color_negro1:#514849;
-$color_plomoletra: #898989;
+$color_plomoletra:#898989;
 $color_hover: #E48080;
 $fuente:"Roboto", sans-serif;
 
@@ -22,7 +22,6 @@ h1, h5, h6, {
 }
 .menu a{
 	color: $color_negro;
-
 }
 #opening{
 	background-color: $color_blanco;
@@ -41,13 +40,15 @@ h1, h5, h6, {
 }
 .hero a{
 	color: $color_negro;
+	font-size: 20px;
+	font-weight: bold;
 	margin-left: 20px;
 }
 .hero a:hover{
 	background-color: $color_hover;
 	text-decoration: none;
 	color: $color_blanco;
-	padding: 23px;
+	padding: 24px;
 
 }
 .list{
@@ -56,11 +57,10 @@ h1, h5, h6, {
 
 .shopping{
 	background-color: $color_negro1;
-
+	width: 30px;
+	color: $color_blanco;
+	font-size: 20px;
 }
-// .shopping h4, p{
-// 	color: $color_blanco;
-// }
 #carrousel{
 
 }
@@ -69,6 +69,10 @@ h1, h5, h6, {
 	width: 250px;
 	position: absolute;
     right: 100px;
+    margin-top: 15px;
+    margin-right: -120px;
+    border: 1px solid $color_plomoletra;
+    padding: 1px;
 }
 .segundo{
 	width: 250px;
@@ -81,13 +85,168 @@ h1, h5, h6, {
 #arrival{
 	padding: 40px;
 }
+.products{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 .products a{
 	color: $color_plomoletra;
+	font-weight: bold;
+	font-size: 18px;
 }
 .products a:hover{
 	text-decoration: none;
 	color: $color_negro;
 }
+.products img{
+	margin: 10px;
+	border: 1px solid $color_plomo;
+}
+.products .thumbnail{
+	width: 250px;
+	margin-right: 10px;
+	margin-left: 25px;
+}
+.price{
+	color: $color_hover;;
+}
+.novedad{
+	top: 50px;
+	background-color: $color_hover;
+	border: 1px solid $color_hover;
+	color: $color_blanco;
+	padding: 5px;
+	margin-left: 0px;
+	width: 45px;
+	z-index: 1;
+	position: absolute;
+}
+.sale{
+	top: 14px;
+	background-color: $color_negro1;
+	border: 1px solid $color_negro1;
+	color: $color_blanco;
+	padding: 5px;
+	margin-left: 0px;
+	width: 45px;
+	z-index: 1;
+	position: absolute;
+
+}
 .clients{
-	background: url("../images/client-bg.jpg")
+	background: url("../images/client-bg.jpg");
+	background-size: contain;
+	height: 180px;
+	margin-bottom: 40px;
+}
+.clients img{
+	margin-top: 50px;
+}
+.clothing a{
+	color: $color_plomoletra;
+	font-weight: bold;
+	font-size: 18px;
+}
+.clothing img{
+	border: 3px solid $color_plomo;
+}
+.clothing button{
+	background-color: $color_negro;
+	color: $color_blanco;
+	margin-top: 12px;
+	padding-top: 5px;
+}
+.blog{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.blog a{
+	color: $color_plomoletra;
+	font-weight: bold;
+	font-size: 18px;
+}
+.blog a:hover{
+	text-decoration: none;
+	color: $color_negro;
+}
+.blog h5{
+	font-weight: bold;
+}
+.read{
+	color: $color_hover;
+}
+.publicity .thumbnail{
+	width: 350px;
+	margin-right: 10px;
+	margin-left: 25px;
+}
+.publicity i{
+	font-size: 35px;
+}
+.contact{
+	background-color: $color_plomo;
+	padding: 20px;
+}
+.contact a{
+	color: $color_negro;
+}
+.contact li{
+	margin-bottom: 15px;
+}
+.contact h4{
+	font-weight: bold;
+}
+.redes i{
+	background-color: $color_blanco;
+	padding: 10px;
+}
+.about i{
+	border-radius: 100px;
+	background-color: $color_blanco;
+	padding: 10px;
+	margin-top: 5px;
+}
+.footer{
+	background-color: $color_negro;
+	color: $color_blanco;
+	padding: 10px;
+}
+.info{
+	background: url("../images/blog3.jpg");
+	background-size: contain;
+	padding: 300px;
+	background-repeat: no-repeat;
+	color: $color_blanco;
+}
+.info h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: -40px;
+}
+.info h1:hover{
+	background-color: $color_hover;
+	padding: 10px;
+}
+.arriba{
+	margin-top: -40px;
+	line-height: 30px;
+}
+.map{
+	background-color: $color_blanco;
+	margin-top: -100px;
+	padding-top: 80px;
+}
+.cuadro{
+	padding-top: 10px;
+}
+.cuadro input{
+	background-color: $color_plomo;
+	margin-bottom: 15px;
+
+}
+.cuadro textarea{
+	background-color: $color_plomo;
+
 }

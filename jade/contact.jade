@@ -1,0 +1,178 @@
+doctype html
+html(lang="en")
+    head
+        title jade
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet", href="../css/main.css")
+        link(rel="stylesheet", href="../css/bootstrap.min.css")
+        link(rel="stylesheet", href="../css/font-awesome.min.css")
+
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto" type="text/css")
+
+        link(href='https://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+
+    
+        script(src="assets/js/jquery-1.12.3.min.js")
+        script(src="assets/js/bootstrap.min.js")
+    body
+        #menu-section
+            .container.menu
+                .row
+                    .col-md-6
+                        h5 Default Welcome Msg!
+                    .col-md-6.menu
+                        ul.list-menu.list-unstyle.list-inline.pull-right
+                            li
+                                img(src="../images/flag1.png")
+                                a(href="") Languaje
+                                i.fa.fa-caret-down
+                            li
+                                i.fa.fa-usd
+                                a(href="") Currency
+                                i.fa.fa-caret-down
+                            li
+                                i.fa.fa-user
+                                a(href="") My Account
+                                i.fa.fa-caret-down
+        #opening
+            .container.opening
+                .row
+                    .col-md-4
+                        .row.clock
+                            .col-md-5.text-right
+                                i.fa.fa-clock-o
+                            .col-md-7.text-left
+                                h5 OPENING TIME
+                                p 9.00 AM - 10.00 PM
+                    .col-md-4.text-center
+                        img(src="../images/logo.png")
+                    .col-md-4.text-center
+                        input.buscador.srilo_lt(type="text" id="buscar" placeholder="search")
+                        i.fa.fa-search
+        #hero-section
+            .container.hero
+                .row
+                    .col-md-9.list
+                        ul.list-menu.list-unstyle.list-inline
+                            li
+                                a(href="") HOME
+                            li
+                                a(href="") CONTACT US
+                    .col-md-3.shopping
+                        h4.fa.fa-shopping-cart My Cart
+                        p 2 item(s) - $244.00 
+            .container-fluid.info
+                .row
+                    .col-md-7
+                        h1.text-center CONTACT US
+                    .col-md-5.arriba
+                        h6 Contact info
+                        p phone:0(1234)567890
+                        p Mail: Info@roadthemes.com
+                        p Adress: N° 40 Baria Streer 133/2 New York City.NY.United States.
+
+            .container-fluid.map
+                .row
+                    .col-md-6
+                        iframe(src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15308.402818279743!2d-71.5189684!3d-16.4197111!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2spe!4v1464975888571" width="400" height="300" frameborder="0" style="border:0" allowfullscreen)
+                    .col-md-6.cuadro
+                        form.form-inline
+                            .form-group
+                                label.sr-only(for="exampleInputEmail3") First name
+                                input(type="text").form-control#exampleInputEmail3(placeholder="First name")
+                            .form-group
+                                label.sr-only(for="exampleInputEmail3") Last name
+                                input(type="text").form-control#exampleInputEmail3(placeholder="Last name")
+                        form.form-inline
+                            .form-group
+                                label.sr-only(for="exampleInputEmail3") Email
+                                input(type="text").form-control#exampleInputEmail3(placeholder="Email")
+                            .form-group
+                                label.sr-only(for="exampleInputEmail3") Web site
+                                input(type="text").form-control#exampleInputEmail3(placeholder="Web site")
+                        form
+                            .form-group
+                                input(type="text").form-control#exampleInputEmail1(placeholder="Subject")
+                            .form-group
+                                textarea.form-control(rows="10")(placeholder="Message")
+                                button.pull-right(type="submit").btn.btn-default Send
+        #contact
+            .container-fluid.contact
+                .container
+                    .row
+                    .col-md-3
+                        h4 ACCESORIES
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris.
+                        .row.redes
+                            .col-xs-2
+                                i.fa.fa-facebook
+                            .col-xs-2
+                                i.fa.fa-twitter
+                            .col-xs-2
+                                i.fa.fa-instagram
+                            .col-xs-2
+                                i.fa.fa-skype
+                            .col-xs-2
+                                i.fa.fa-twitter   
+                    .col-md-2
+                        h4 MY ACCOUNT
+                            ul.list-menu.list-unstyle.list-inline.text-center
+                            li.fa.fa-caret-right
+                                a(href="") My Account
+                            li.fa.fa-caret-right
+                                a(href="") Order History
+                            li.fa.fa-caret-right
+                                a(href="") Wish List
+                            li.fa.fa-caret-right
+                                a(href="") Newsletter
+                    .col-md-2
+                        h4 INFORMATION
+                            ul.list-menu.list-unstyle.list-inline.text-center
+                            li.fa.fa-caret-right
+                                a(href="") About Us
+                            li.fa.fa-caret-right
+                                a(href="") Delivery Information
+                            li.fa.fa-caret-right
+                                a(href="") Privacy Policy
+                            li.fa.fa-caret-right
+                                a(href="") Terms & Conditions
+                    .col-md-2
+                        h4 EXTRAS
+                            ul.list-menu.list-unstyle.list-inline.text-center
+                            li.fa.fa-caret-right
+                                a(href="") Brands
+                            li.fa.fa-caret-right
+                                a(href="") Gift Vouchers
+                            li.fa.fa-caret-right
+                                a(href="") Affiliates &#160
+                            li.fa.fa-caret-right 
+                                a(href="") Specials
+                    .col-md-3.about
+                        h4 ABOUT US
+                        .row
+                            .col-md-2
+                                i.fa.fa-phone
+                            .col-md-10
+                                p 8901 Marmora Road, Glasgow DO4 89 GR, New York
+                        .row
+                            .col-md-2
+                                i.fa.fa-phone
+                            .col-md-10
+                                p (0123)456789 (0987) 654321
+                        .row
+                            .col-md-2
+                                i.fa.fa-phone
+                            .col-md-10
+                                p admin@bootexperts.com
+        #footer
+            .container-fluid.footer
+                .row
+                    .container
+                        .col-md-9
+                            p Copyright © 2015 BootExperts All rights reserved.
+                        .col-md-3
+                            img(src="../images/payment.png")
